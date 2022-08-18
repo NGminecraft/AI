@@ -6,7 +6,7 @@ while 0 == 0:
   while thinking == 1:
     print("thinking")
   if mainInput =! "":
-  
+    import main.py
   else:
     thinking = 0
     print("done")
