@@ -1,3 +1,4 @@
+import subprocess
 while 0 == 0:
   thinking = 0
   mainInput = input("Input:")
@@ -6,7 +7,7 @@ while 0 == 0:
   while thinking == 1:
     print("thinking")
   if mainInput =! "":
-    import main.py
+  subprocess.call("main.py" shell=true)
   else:
     thinking = 0
     print("done")
